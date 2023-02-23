@@ -5,8 +5,8 @@ public class Main {
         int replenishment = 1000; //сумма пополнения
         int bonus;
 
-        if (replenishment>1000) {
-            bonus = replenishment/100;
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
             System.out.println("бонусы начисляются, если сумма пополнения превышает 1000 рублей");
         } else {
             bonus = 0;
